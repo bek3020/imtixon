@@ -1,0 +1,43 @@
+@import "veriball";
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  .header_top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: $color-primary;
+    text-decoration: none;
+  }
+  .nav {
+    display: flex;
+    gap: 40px;
+    .nav__link {
+      font-family: $font-family;
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+
+      text-decoration: none;
+      color: #000000;
+      font-weight: 500;
+      .nav__link:hover {
+        color: $btn-color;
+      }
+    }
+  }
+}

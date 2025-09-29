@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-…(hash)…"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+          <div class="header_top">
+            <div class="header__phone">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+998712002255">+998 (71) 200-22-55</a>
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+998712002255">+998 (71) 200-22-55</a>
+            </div>
+            </div>
+        <div class="header__inner">
+            <div class="header__logo">
+              <img src="img/logo.png" alt="" />
+            </div>
+            <nav class="nav">
+              <a class="nav__link" href="#">Курорт</a>
+              <a class="nav__link" href="#">Проживание</a>
+              <a class="nav__link" href="#">Услуги и тарифы</a>
+              <a class="nav__link" href="#">Афиша</a>
+              <a class="nav__link" href="#">Для бизнеса</a>
+              <a class="nav__link" href="#">Купить онлайн</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="container">
+        <div class="banner-panel">
+          <div class="banner-panel__top">
+            <span class="banner-panel__collapse">Свернуть</span>
+          </div>
+          <ul class="banner-panel__menu">
+            <li><span class="banner-panel__icon"><i class="fa-solid fa-camera-retro" style="color: #74C0FC;"></i></span> Веб-камеры</li>
+            <li><span class="banner-panel__icon"><i class="fa-solid fa-box-open" style="color: #74C0FC;"></i></span> Канатные дороги</li>
+            <li><span class="banner-panel__icon"><i class="fa-solid fa-ticket" style="color: #74C0FC;"></i></span> Билеты</li>
+            <li><span class="banner-panel__icon"><i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i></span> Карта</li>
+          </ul>
+          <div class="banner-panel__info">
+            Сегодня, sunday 15 января
+          </div>
+          <div class="banner-panel__weather">
+            <span class="banner-panel__weather-icon"><i class="fa-solid fa-temperature-three-quarters"></i></span>
+            <span class="banner-panel__weather-temp">-10</span>
+          </div>
+        </div>
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
+    <div class="parallax-bg" style="
+          background-image: url(img/banner_img.png);
+        " data-swiper-parallax="-23%"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">30 декабря в ЦАО "Евразия" состоится тестовое 
+открытие 2 склона.</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>
+        К новогодним праздникам уже подготовлено 
+5 больших склонов и учебная трасса, 
+а также тюбинговая горка.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">О курорте</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>
+            Мы рады приветствовать любителей активного отдыха в горнолыжном курорте “Евразия”, в одном из наиболее динамично развивающихся горнолыжных центров Южного Урала.
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="title" data-swiper-parallax="-300">Новый сезон – новые горизонты</div>
+        <div class="text" data-swiper-parallax="-100">
+          <p>
+            Центра активного отдыха «Евразия» – активный отдых в гармонии с природой.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+      </div>
+      </section>
+      <section class="banner_2">
+        <div class="container">
+            <h1 class="all_string">
+                Центр активного отдыха "Евразия"
+            </h1>
+            <div class="banner_two">
+                <div class="banner_string">
+                   <img class="banner_twos" src="img/banner_two1.png" alt="">
+                   <p class="banner_two_title">Мы рады приветствовать любителей активного отдыха в нашем экологическом парке — самом динамично развивающемся горнолыжном центре Южного Урала!</p>
+                </div>
+                <img class="banner_two_img" src="img/banner_two.png" alt="">
+            </div>
+        </div>
+      </section>
+
+      <section class="promo">
+        <div class="container">
+            <div class="promo_box">
+                <div class="promo_boxs">
+                    <h1 class="all_string">
+                    Акции и спец предложения
+                </h1>
+                <button class="promo_button">
+                    Посмотреть все
+                </button>
+                </div>
+            </div>
+      </section>
+    <script src="app.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      speed: 600,
+      parallax: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  </body>
+</html>

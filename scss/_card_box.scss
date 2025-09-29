@@ -1,0 +1,13 @@
+@import "variables";
+.promo {
+  .promo_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .promo_boxs {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
