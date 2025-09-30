@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NATURE</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="stile.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
@@ -188,7 +189,7 @@
             Акции и спец предложения
           </h1>
         </div>
-        <div class="flex flex-col md:flex-row items-center gap-[24px] justify-center mb-20">
+        <div data-aos="zoom-in-up" class="flex flex-col md:flex-row items-center gap-[24px] justify-center mb-20">
   <img
     src="img/nature_img/nature_card1.png"
     alt="nature1"
@@ -208,7 +209,7 @@
   </div>
 </div>
 
-<div class="flex flex-col md:flex-row items-center gap-[24px] justify-center mb-20">
+<div data-aos="zoom-in-up" class="flex flex-col md:flex-row items-center gap-[24px] justify-center mb-20">
   <img
     src="img/nature_img/nature_card2.png"
     alt="nature1"
@@ -228,7 +229,7 @@
   </div>
 </div>
 
-<div class="flex flex-col md:flex-row items-center gap-[24px] justify-center mb-20">
+<div data-aos="zoom-in-up" class="flex flex-col md:flex-row items-center gap-[24px] justify-center mb-20">
   <img
     src="img/nature_img/nature_card3.png"
     alt="nature1"
@@ -253,12 +254,12 @@
 
 
         <section  class="max-w-[1160px] mx-auto px-4 w-full mb-[100px]" >
-            <h2 class="font-inter font-semibold text-[36px] leading-[44px] tracking-[-0.02em] text-center mb-[40px]">
+            <h2 data-aos="zoom-in-up" class="font-inter font-semibold text-[36px] leading-[44px] tracking-[-0.02em] text-center mb-[40px]">
                 Обращаем Ваше внимание на то, что для постояльцев гостиницы действуют специальные тарифы на ски-пасс.
             </h2>
 
             <div class="flex items-center justify-center gap-[7px]">
-                <svg class="cursor-pointer" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg data-aos="zoom-in-up" class="cursor-pointer" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <circle cx="34.5" cy="34.5" r="34.5" fill="#0093DD"/>
 <rect x="14" y="15" width="40" height="39" fill="url(#pattern0_1_15511)"/>
 <defs>
@@ -268,7 +269,7 @@
 <image id="image0_1_15511" width="144" height="144" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
 </defs>
                 </svg>
-                <svg class="cursor-pointer" width="68" height="69" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg data-aos="zoom-in-up" class="cursor-pointer" width="68" height="69" viewBox="0 0 68 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <ellipse cx="34" cy="34.5" rx="34" ry="34.5" fill="#0093DD"/>
 <rect x="11" y="12" width="47" height="46" fill="url(#pattern0_1_15514)"/>
 <defs>
@@ -278,7 +279,7 @@
 <image id="image0_1_15514" width="100" height="100" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFIUlEQVR4nO2dS4gdRRSGe64uRic+kCC+MCtREgwqKC7ExCSgiKCCigsXKm4TETcRxGQTFUQRUYLboAsTNCIiPldJ0I0uZCYRNDGaRIKIz1wSE51PCirQXfajqrtud9/0/8Hd3NNV59T5p0/3raruSRIhhBBCCCGEEEIMEGCBLMtLjl3hHDvfbrQDANjsJHlzwLGb2o12AADXOEneF+NsEg3wSTQqV/0qW6hc9atsoXLVLmUJR+WqX2ULlatOBHF/YyyUnD0rctqvAd4FjgAngVPAYeAdYFWJ3wyh9jOavMSXCWUAZoAXgEWKMbaNSQ4SJLBsVd2BAetLhHBFWS1BAsg7G6rKFfA1/uyQIIHkCFBYruzxJzJHwMvA+cAc8Ipj+1GChAvilqjSuauca8dFKdslju2EBGn+I7FqSiVD2/Yhl635gmMlSEdla5ME6VfZWi5BOsS3dqOSJUEGic6QniFBeoYE6RkSZHoF+ds59NKU7TLHdrLKjzP18r/b72SoBAhy2Dn0VTu5eAHwmmM7WuUH2AYsBa4FvpIg4YLswJ/3c9r/GtBeZ4iHIDcD/3jk8l9gXU77rRLEg5C/TOAxu4ZehBFsfUFbU9725bQx0/rP6AypIYgBuAF40yxC2UUr8zkEbDdnUVKCFWWrLV/m8xlwh7WpZAkhhBgmwMjuInwe2A0cBMYMj7Edu8nBc8BtJjdtCmF2ED4I7O06Ez1mr83RzKTFWBL4i3novGdutScpxpddj3AKMTlbMoky9VbXI5tidkYtX7YeimY8EEuMs3QBj8JClLsvexsn4rA6hiDmd0ZtavhrROz+IrMlhiB7mkQgQTLsjiGI+RVaGwmS4UAMQRpNh0iQDOMYgkRl2vtvigTJchT4iw6ZOkGS+HazZv46sCw1S70W+K4gxAPAk8B1dsl3xm4XWmOXjhdjjn+IgmwoGNcy4Hen+SfAeRX5eDTm+INp4twnoEnbA57g+gm40LPdG7HGH0xdx74BtWBfC/xgS9T1jm1lqukTbcxe+Poocx6Vqv6T+PbvU+ZPHdu5KdtVju12u73InDn3OLalscYfTF3HvgG1bP+txH6O8705q05zxLGdHWv8wdR17BtQj+yjJv3WHX8wdR37BtQj+6hJv3XHH0xdx74B9cg+aiMvIT6iOvYNqEf2URt5CfER1bFvQD2yj9rIS4iPqI59A+qRfdRGXkJ8RHXsG9C0XNRjUVuISQXWYcKr7BJkmgRJKvr1JWlKXce+AfXIPut8fzxlO56zNSrK+IOp69g3IA/7tynznhrtKZoCcexXON9/k7IddGxzscYfDHCsrnOfgDzsq4D99sXJN9Zob54p/MNOFN5Vkth7c3Zr/myfRXzcsV0da/zBOLOljalKKIG7xZsMGLgl1XRnQLtHag7/WEh8Rc4/JyI5/bs8HBhfaf8VbT9ONV08/URuRZvZwHcIp9kfEl9RAC8SkZz+XX4x7x4piCXv9bFV/T9d0NfGHN9/uqXLaXMx8FGD4e9KmgLcSUSqEpoS5T6zRmE/64APfNoX2M2DM7eaJVrgcuAlyvnCCAk8ZK8lG+yy7bgPW0ln7fYZ0ZzC/94QKspTEYIZOgvRHga1+5PSS5oinPujiJES5Sb7D1REOG9P5Ilce//t84okkX3ocy66GClR7u56f+wUsX2iYjjvONzWdJ/rGcy8uWZM/MUBOcJcaeZ5gA/ty8GGeOaM7QbtXcCzdu6tvVdrCCGEEEIIIYQQQgiRdMN/Vv7KcsmCRw4AAAAASUVORK5CYII="/>
 </defs>
                 </svg>
-                <svg class="cursor-pointer" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg data-aos="zoom-in-up" class="cursor-pointer" width="69" height="69" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <circle cx="34.5" cy="34.5" r="34.5" fill="#0093DD"/>
 <rect x="11" y="11" width="47" height="47" fill="url(#pattern0_1_15517)"/>
 <defs>
@@ -365,5 +366,9 @@
     </footer>
     </div>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
   </body>
 </html>
